@@ -12,7 +12,7 @@
 ## Go check it out live👉[here](https://interior-design-landing.netlify.app/)
 ---
 ### This is how it looks 👀
-![Preview](./output.jpg)
+![Preview](./output1.jpg)
 
 
 It took 4hrs to complete this masterpiece.😮‍💨
