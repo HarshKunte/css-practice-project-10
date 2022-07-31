@@ -6,7 +6,7 @@
 - Background images
 - Linear Gradients
 - rgba()
-- use of ::before ::after
+- use of `::before` `::after`
 - Positoning of elements
 
 ## Go check it out live👉[here](https://interior-design-landing.netlify.app/)
