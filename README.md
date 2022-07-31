@@ -1,6 +1,6 @@
 ## Hello👋 I'm **Harsh Kunte**
 ---
-### This is an awesome looking interiro design landing page with gradient background design.
+### This is an awesome looking interior design landing page with gradient background design.
 
 ### Things I learnt in this project🤯
 - Background images
