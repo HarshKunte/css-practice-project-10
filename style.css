@@ -7,6 +7,7 @@
 body{
     background-image: url(./images/background.jpg);
     background-size: cover;
+    background-position: start;
     min-height: 140vh;
 }
 .icon{
@@ -21,6 +22,9 @@ nav{
     color: #fff;
     justify-content: space-between;
     align-items: center;
+}
+.hamburger{
+    display: none;
 }
 .list{
     display: flex;
@@ -149,4 +153,90 @@ nav{
     border-radius: 7.5px;
     background-color: #fff;
     transform: translate(50%, 50%);
+}
+
+@media screen and (max-width:768px){
+    nav{
+        padding: 1.5rem 2rem;
+    }
+    ul.list{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    .main{
+        padding: 1.5rem 3rem;
+    }
+    .heading-section>h1 {
+        margin-top: 1rem;
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: #fff;
+        width: 50%;
+    }
+    .cards {
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .puzzle-section-card {
+        width: 15rem;
+        height: 9rem;
+    }
+    .bulb-section {
+        bottom: -100px;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .heading-section>h1 {
+        margin-top: 8rem;
+        font-size: 2.5rem;
+        width: 80%;
+    }
+    .bulb-section {
+        bottom: -10rem;
+        left: 0;
+    }
+    .puzzle-section{
+        top: -10rem;
+    }
+    .main{
+        padding: 1.5rem;
+    }
+    .heading-section>button {
+        margin-top: 3rem;
+        padding: 1rem 1.5rem;
+        color: #fff;
+        border: 2px solid #fff;
+        background: none;
+        font-size: 1.2rem;
+        border-radius: 2rem;
+    }
+}
+
+@media screen and (max-width:350px){
+    .bulb-hidden::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 7.5px;
+        background-color: #fff;
+        transform: translate(50%, 50%);
+    }
+    .bulb-hidden {
+        right: auto;
+        top: auto;
+        border-bottom: none;
+        border-right: 1px solid rgb(255, 255, 255);
+    }
 }
